@@ -1,4 +1,5 @@
-# portfolio_webpage
-Repo for my Portfolio Webpage
+# Portfolio Webpage
+Source Repo for my Portfolio Webpage, deployed using Github Pages.
 
-Under Construction
+View the page at (this link)[http://samson-bakos.github.io]
+
