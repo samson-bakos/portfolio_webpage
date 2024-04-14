@@ -50,6 +50,67 @@
 			<article id="portfolio">
 				<h2 class="major"> Data Science Projects</h2>
 				<span class="image main"><img src="images/snoop.webp" alt="" /></span>
+				<h2>SnoopChat</h2>
+				<h4> AI Text-to-Speech Persona | April 2024</h4>
+				<p>Key Skills: OpenAI, Google Cloud Platform, Audio Processing, Python, Streamlit</p>
+				<p><a href="https://github.com/samson-bakos/snoopchat">GitHub Link</a></p>
+				<p><a href="https://snoopchat.streamlit.app">App Link</a></p>
+
+				<p>SnoopChat is a text-to-speech application that allows users to interact with a virtual representation
+					of Snoop Dogg. I undertook this project to develop my understanding of modern AI tools and
+					technologies, including fine tuning of GPT models and AI Voice Synthesis. I selected Snoop Dogg as a
+					subject due to the challenge of his unique voice and style of speaking.</p>
+
+				<h3>Project Overview</h3>
+				<p><strong>Data Acquisition:</strong> Initial transcripts were sourced from SnoopDoggTV's YouTube
+					segments, but it was challenging to get a clean transcript from YouTube’s automated captioning.
+					To improve quality, a more detailed extended interview with Larry King was utilized, providing
+					clearer insights into Snoop's speech patterns.</p>
+				<p><strong>AI Modeling:</strong> The data was processed and fine-tuned using GPT-3.5, focusing on
+					accurately reflecting Snoop's unique vocabulary and style. While it is possible to achieve Snoop
+					Dogg-like speech by prompting GPT-3.5 directly, I compared this output against actual transcripts of
+					Snoop’s speech and found a non-fine-tuned model gave an overly embellished, stereotypical version of
+					Snoop’s speech.</p>
+				<p><strong>Voice Synthesis:</strong> I extracted audio clips from Snoop’s YouTube channel and used
+					Google Cloud Platform’s voice transcription to extract timestamps for different speakers. I then
+					extracted and concatenated the clips corresponding to Snoop’s speech to create a cohesive voice
+					sample. I then trained a voice synthesis model with gemelo.ai, ensuring the virtual voice closely
+					matched the real Snoop Dogg.</p>
+				<p><strong>Interface Development:</strong> A user-friendly web interface was developed with Streamlit,
+					allowing easy interaction with the AI.</p>
+
+				<h3>Challenges and Learning</h3>
+				<p>The project highlighted the importance of quality data in AI training and the challenges of voice
+					synthesis. The limited data used led to potential overfitting to the given prompts, suggesting
+					future improvements
+					with access to more a diverse dataset of Snoop's speech.</p>
+				<p>SnoopChat is a work in progress. Try it live and share your feedback to help develop it further!
+				</p>
+
+				<span class="image main"><img src="images/chatpdf.webp" alt="ChatPDF Interface" /></span>
+				<h2>ChatPDF</h2>
+				<h4>Interactive Document Interface | March 2024</h4>
+				<p>Key Skills: Python, OpenAI, LangChain, PyMuPDF, Streamlit</p>
+				<p><a href="https://github.com/samson-bakos/chatpdf">GitHub Link</a></p>
+				<p><a href=" https://samsonbakos-chatpdf.streamlit.app">App Link</a></p>
+
+				<p>ChatPDF is a Streamlit-based web application that allows users to interactively query PDF documents.
+					I undertook this project to develop my understanding of modern AI tools and technologies like the
+					OpenAI API and LangChain.</p>
+
+				<h3>Project Overview</h3>
+				<p><strong>PDF Text Extraction:</strong> Utilizes PyMuPDF to extract text from uploaded PDF documents,
+					making the full content available for querying.</p>
+				<p><strong>Natural Language Querying:</strong> Integrates OpenAI's language models via LangChain to
+					respond to user queries in natural language, allowing for efficient document
+					exploration.</p>
+				<p><strong>Adaptive Text Chunking:</strong> Implements a recursive function to split document text into
+					manageable chunks, enabling effective processing of large documents.</p>
+				<p><strong>Intelligent Summarization:</strong> Uses summarization to consolidate responses into a
+					single, coherent answer, improving user experience by delivering clear and concise information.</p>
+				<p><strong>Streamlit Interface:</strong> Features a user-friendly web interface for easy PDF upload and
+					interaction through natural language queries.</p>
+
 				<span class="image main"><img src="images/river.jpg" alt="" /></span>
 				<h2> Predicting Floods in Canadian Rivers</h2>
 				<h4> BGC Engineering | MDS Capstone Project | April - July 2023</h4>
