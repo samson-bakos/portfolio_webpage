@@ -67,7 +67,7 @@
 				<h3>Project Overview</h3>
 				<p><strong>Data Acquisition:</strong> Initial transcripts were sourced from SnoopDoggTV's YouTube
 					segments, but it was challenging to get a clean transcript from YouTube’s automated captioning.
-					To improve quality, a more detailed extended interview with Larry King was utilized, providing
+					To improve quality, I used a more detailed extended interview with Larry King, which provided
 					clearer insights into Snoop's speech patterns.</p>
 				<p><strong>AI Modeling:</strong> The data was processed and fine-tuned using GPT-3.5, focusing on
 					accurately reflecting Snoop's unique vocabulary and style. While it is possible to achieve Snoop
@@ -79,14 +79,14 @@
 					extracted and concatenated the clips corresponding to Snoop’s speech to create a cohesive voice
 					sample. I then trained a voice synthesis model with gemelo.ai, ensuring the virtual voice closely
 					matched the real Snoop Dogg.</p>
-				<p><strong>Interface Development:</strong> A user-friendly web interface was developed with Streamlit,
+				<p><strong>Interface Development:</strong> I developed a simple, user-friendly web interface with
+					Streamlit,
 					allowing easy interaction with the AI.</p>
 
 				<h3>Challenges and Learning</h3>
 				<p>The project highlighted the importance of quality data in AI training and the challenges of voice
-					synthesis. The limited data used led to potential overfitting to the given prompts, suggesting
-					future improvements
-					with access to more a diverse dataset of Snoop's speech.</p>
+					synthesis. The limited data used led to potential overfitting to the given prompts (~250 total),
+					suggesting future improvements with access to more a diverse dataset of Snoop's speech.</p>
 				<p>SnoopChat is a work in progress. Try it live and share your feedback to help develop it further!
 				</p>
 
@@ -126,9 +126,8 @@
 					Geological Survey. This methodology has multiple components, including grouping of similar rivers,
 					fitting of distributions, and mean/quantile flow predictions. My team explored possible improvements
 					to all aspects of the existing approach, using modernized machine learning and applied statistics to
-					create
-					a system that reduced error
-					by 84% at the key design-flood threshold, as well as automating a time consuming manual step
+					create a system that reduced error by 84% at the key design-flood threshold, as well as automating a
+					time consuming manual step
 					requiring
 					expert domain knowledge. </p>
 				<p> Our system is currently in use by BGC's Engineers and Hydrologists to guide engineering decisions to
@@ -256,182 +255,269 @@
 			<article id="work">
 				<h2 class="major"> Professional Experience</h2>
 				<span class="image main"><img src="images/ll.png" alt="" /></span>
-				<h2> Data Science Instructor</h2>
+				<h2> Data Science Instructor + Curriculum Developer</h2>
 				<h4> Lighthouse Labs | Nov 2023 - Present</h4>
 				<p>In my most recent role, I have combined my background in education with my passion for data science
-					as a Data Science Instructor at Lighthouse Labs. I am primarily responsible for delivering
+					as a Data Science Instructor and Curriculum Developer at Lighthouse Labs. I am primarily responsible
+					for delivering
 					comprehensive virtual lectures covering a broad spectrum of data science topics, leveraging my
-					classroom teaching experience along with my personal data science knowledge. My
-					responsibilities also extend to conducting regular code reviews and technical interviews,
-					contributing
-					significantly to students' success in real-world scenarios and fostering an understanding of data
+					classroom teaching experience along with my personal data science knowledge. I also act as a
+					Data Science Mentor,
+					hosting open office hours to advise and enhance students' success in real-world scenarios and
+					fostering an understanding of data
 					science standards and best practices.</p>
-				<p>As part of my commitment to the education landscape, I actively contribute to the adaptation of
-					curriculum content to align with industry demands and trends. I also serve as a subject matter
-					expert,
-					ensuring the curriculum remains cutting-edge and relevant. Beyond the virtual classroom, I act as a
-					Data Science Mentor, assisting individual students and project groups,
-					and participating in open office hours to assess and enhance student progress.</p>
+				<p> I was also promoted to the role of Data Science Subject Matter Expert (SME), where I act a
+					curriculum developer and maintainer on the Curriculum Corrective Maintenance team. </p>
+				<p> On this team, I am responsible for building out and developing new curriculum materials to
+					align with industry demands and trends. My specific contributions have included contributing
+					to LHL’s new LLMs module, where I created lectures and practice content on fine-tuning and
+					evaluating open source models like BERT for tasks such as sentiment analysis and text
+					summarization. I also contributed to the enhancement and expansion of the advanced Python,
+					Deep Learning, and Statistics modules. </p>
 				<p>
-					I'm thrilled to be part of the Lighthouse Labs community,
-					where innovation, inclusivity, and changing lives through reimagined education are at the forefront
-					of our mission.</p>
-				<p>Joining Lighthouse Labs aligns with my passion for teaching and my mission to contribute to the
-					development of the workforce with analytical and technical skills necessary for success in the
-					automated world. As we continue to navigate the ever-evolving landscape of data science, I am
-					excited to be part of a team that is making a real impact in preparing individuals for meaningful
-					careers.</p>
+					I also work to maintain and improve the existing curriculum. Analyzing the student
+					experience using a combination of ratings tracking and sentiment analysis of written
+					feedback, I identify problematic activities and student pain-points. I then apply my
+					subject matter and pedagogical expertise to make necessary corrections and
+					improvements, ensuring students receive the best possible instruction, and our
+					codebase stays up to date with the evolving field.
+
+				</p>
+
 
 
 				<span class="image main"><img src="images/bgc.png" alt="" /></span>
 				<h2> Data Scientist Intern</h2>
 				<h4> BGC Engineering | April - July 2023</h4>
-				<p> Following the completion of my UBC MDS coursework, I worked with BGC Engineering to update their
+				<p> Following the completion of my UBC MDS coursework, I worked with BGC
+					Engineering to update their
 					system for
-					predicting floods in Canadian rivers. Our task was to predict the "One in Two Hundred Year Flood" in
-					rivers where no annual flow data was available, but some characteristics of the watershed were
+					predicting floods in Canadian rivers. Our task was to predict the "One in
+					Two Hundred Year Flood" in
+					rivers where no annual flow data was available, but some characteristics of
+					the watershed were
 					known. This was a statistically challenging problem as it
 					required not just a
-					prediction of an expected value, as in a typical ML problem, but the prediction of the highest
-					quantiles of an unknown distribution, using sometimes very limited data from 'similar'
+					prediction of an expected value, as in a typical ML problem, but the
+					prediction of the highest
+					quantiles of an unknown distribution, using sometimes very limited data from
+					'similar'
 					distributions. </p>
 				<p> Building
 					upon existing approaches and under guidance from both MDS Mentors and
-					BGC's experts, my team made improvements to both the machine learning and statistical components of
-					the prediction process, ultimately creating a system that reduced prediction error by 84% at the key
-					0.995 quantile. Our pipeline script is currently in use by BGC Engineering in the backend of their
+					BGC's experts, my team made improvements to both the machine learning and
+					statistical components of
+					the prediction process, ultimately creating a system that reduced prediction
+					error by 84% at the key
+					0.995 quantile. Our pipeline script is currently in use by BGC Engineering
+					in the backend of their
 					proprietary
-					software 'Cambio' to guide engineering decisions and keep Canadian communities safe.</p>
-				<p> Our project and final presentation was selected as a "Top 3 Best Project" by UBC MDS peers and
-					staff, and was recieved extremely well by BGC's community of Engineers and Hydrologists following
+					software 'Cambio' to guide engineering decisions and keep Canadian
+					communities safe.</p>
+				<p> Our project and final presentation was selected as a "Top 3 Best Project" by
+					UBC MDS peers and
+					staff, and was recieved extremely well by BGC's community of Engineers and
+					Hydrologists following
 					our company wide presentation.</p>
 				<span class="image main"><img src="images/mds.png" alt="" /></span>
 				<h2> Master of Data Science</h2>
 				<h4> University of British Columbia | GPA 4.0 | Sep 2022-July 2023</h4>
-				<p> Key Coursework: Supervised/ Unsupervised Machine Learning, Deep Learning, Data Analysis and Applied
-					Statistics, NLP, Data Visualization, Time/ Spatial Modelling, Databases and Data Retrieval,
+				<p> Key Coursework: Supervised/ Unsupervised Machine Learning, Deep Learning,
+					Data Analysis and Applied
+					Statistics, NLP, Data Visualization, Time/ Spatial Modelling, Databases and
+					Data Retrieval,
 					Algorithms and Data Structures, Cloud Computing</p>
-				<p> I completed my Master of Data Science degree in July 2023. The UBC MDS was an invaluable experience
-					for me, as it is designed to take passionate students with strong STEM backgrounds and train them
+				<p> I completed my Master of Data Science degree in July 2023. The UBC MDS was
+					an invaluable experience
+					for me, as it is designed to take passionate students with strong STEM
+					backgrounds and train them
 					into
 					industry ready Data Scientists. The
-					program covered the full spectrum of data science skills, from basic data wrangling to advanced
-					machine learning, and everything in between. I fully immersed myself into the work, driven to make
-					the most of the learning opportunity and finding immense joy and fascination with the subject
+					program covered the full spectrum of data science skills, from basic data
+					wrangling to advanced
+					machine learning, and everything in between. I fully immersed myself into
+					the work, driven to make
+					the most of the learning opportunity and finding immense joy and fascination
+					with the subject
 					matter.
 
-				<p>I was outspoken and passionate about my learning and experience in the program, and was recognized as
-					a leader both academically and socially, being elected for multiple terms as student-faculty
-					representative. I also tremendously value the interpersonal connections and friendships I forged in
-					this program, working with people from all over the world and from extremely diverse professional
+				<p>I was outspoken and passionate about my learning and experience in the
+					program, and was recognized as
+					a leader both academically and socially, being elected for multiple terms as
+					student-faculty
+					representative. I also tremendously value the interpersonal connections and
+					friendships I forged in
+					this program, working with people from all over the world and from extremely
+					diverse professional
 					backgrounds and
-					walks of life, all sharing a passion for data science. I am extremely grateful for my time in the
+					walks of life, all sharing a passion for data science. I am extremely
+					grateful for my time in the
 					UBC MDS, and this experience only
 					strengthened my commitment to pursuing a career in data science. </p>
 				<span class="image main"><img src="images/vsb.jpeg" alt="" /></span>
 				<h2> Secondary Science Teacher</h2>
 				<h4> Vancouver School Board | June 2020 - Aug 2022</h4>
-				<p> After finishing my Bachelor of Education at UBC, I began teaching with the VSB. I taught Science 9
+				<p> After finishing my Bachelor of Education at UBC, I began teaching with the
+					VSB. I taught Science 9
 					and AP Chem 12 at Eric Hamber
 					Secondary in 2020
-					and Science 10 and Chemistry 12 at John Oliver Secondary in 2021/22, as well as being a
+					and Science 10 and Chemistry 12 at John Oliver Secondary in 2021/22, as well
+					as being a
 					Teacher-on-Call. </p>
-				<p> My time as a teacher allowed me to develop exceptional public speaking and presentation skills,
-					which has ultimately become one of my greatest strengths as a Data Scientist. I began to understand
-					the different ways that people learn, and how to present complex new information in a way it could
+				<p> My time as a teacher allowed me to develop exceptional public speaking and
+					presentation skills,
+					which has ultimately become one of my greatest strengths as a Data
+					Scientist. I began to understand
+					the different ways that people learn, and how to present complex new
+					information in a way it could
 					be understood and utilized by listeners. </p>
-				<p> Teaching also taught me excellent leadership, planning and multi-tasking skills. As a teacher, you
-					are solely responsible for your students’ learning and the smooth operation of your classes. This
-					required meticulous planning of materials as much as months in advance, but enough flexibility to be
-					able to modify these plans on the fly as issues arose. I also learned to manage the activities of
-					dozens of students, often engaged in different activities, especially during potentially hazardous
-					chemistry labs. My experience has a teacher has made me much more comfortable acting as a team
-					leader and manager in professional situations, as well as imbuing me with personal organization and
-					time management skills that I have carried forward to every aspect of my life. </p>
-				<p> During my time as a TOC, my duties centered around continuity, ensuring classes proceeded as
+				<p> Teaching also taught me excellent leadership, planning and multi-tasking
+					skills. As a teacher, you
+					are solely responsible for your students’ learning and the smooth operation
+					of your classes. This
+					required meticulous planning of materials as much as months in advance, but
+					enough flexibility to be
+					able to modify these plans on the fly as issues arose. I also learned to
+					manage the activities of
+					dozens of students, often engaged in different activities, especially during
+					potentially hazardous
+					chemistry labs. My experience has a teacher has made me much more
+					comfortable acting as a team
+					leader and manager in professional situations, as well as imbuing me with
+					personal organization and
+					time management skills that I have carried forward to every aspect of my
+					life. </p>
+				<p> During my time as a TOC, my duties centered around continuity, ensuring
+					classes proceeded as
 					normal
-					for students even with their main teachers away. This required me to learn to improvise in
-					unexpected situations and be extremely adaptable to daily changes in work environment, tasks, and
-					curriculum. My diligence and effectiveness were frequently recognized by host teachers, who returned
-					pleasantly surprised that they were able to continue their lesson plans with no disruption upon
-					their return. I was frequently personally requested as a substitute, particularly by those
-					teaching senior STEM courses where class time is precious and more subject matter knowledge is
+					for students even with their main teachers away. This required me to learn
+					to improvise in
+					unexpected situations and be extremely adaptable to daily changes in work
+					environment, tasks, and
+					curriculum. My diligence and effectiveness were frequently recognized by
+					host teachers, who returned
+					pleasantly surprised that they were able to continue their lesson plans with
+					no disruption upon
+					their return. I was frequently personally requested as a substitute,
+					particularly by those
+					teaching senior STEM courses where class time is precious and more subject
+					matter knowledge is
 					required. </p>
-				<p> While I enjoyed my time as a teacher, I realized I needed a more intellectually challenging career
-					path. I learned about data science from a friend and alumnus of the UBC MDS program, and realized
-					data science was a way for my love for math and statistics, which I had previously thought were
-					limited to academia, to be utilized to solve real world problems. I immediately began my pivot into
+				<p> While I enjoyed my time as a teacher, I realized I needed a more
+					intellectually challenging career
+					path. I learned about data science from a friend and alumnus of the UBC MDS
+					program, and realized
+					data science was a way for my love for math and statistics, which I had
+					previously thought were
+					limited to academia, to be utilized to solve real world problems. I
+					immediately began my pivot into
 					data science, beginning with applying to the UBC MDS program.</p>
 				<span class="image main"><img src="images/bed.jpeg" alt="" /></span>
 				<h2> Bachelor of Education</h2>
 				<h4> University of British Columbia | Sep 2019 - Aug 2020 </h4>
-				<p> Following completion of my Bachelor of Applied Science, I pursued by Bachelor of Education at UBC,
-					in preparation for my tenure as a teacher. My studies included pedagogical, assessment and
-					adolescent developmental theory, as well as subject matter specific education for science and
+				<p> Following completion of my Bachelor of Applied Science, I pursued by
+					Bachelor of Education at UBC,
+					in preparation for my tenure as a teacher. My studies included pedagogical,
+					assessment and
+					adolescent developmental theory, as well as subject matter specific
+					education for science and
 					chemistry. </p>
-				<p> I also gained my first experience with classroom teaching, completing my teaching practicum at Magee
-					Secondary School, teaching Science 8, Science 9, and Chemistry 11. I very quickly learned effective
-					time management, multi-tasking, and stress-coping techniques as I rapidly accelerated to a full
-					teaching load, receiving excellent feedback and assessments from my mentor teachers.
+				<p> I also gained my first experience with classroom teaching, completing my
+					teaching practicum at Magee
+					Secondary School, teaching Science 8, Science 9, and Chemistry 11. I very
+					quickly learned effective
+					time management, multi-tasking, and stress-coping techniques as I rapidly
+					accelerated to a full
+					teaching load, receiving excellent feedback and assessments from my mentor
+					teachers.
 				</p>
 				<span class="image main"><img src="images/chbe.jpeg" alt="" /></span>
 				<h2> Bachelor of Applied Science - Chemical Engineering </h2>
 				<h4> University of British Columbia | GPA 3.8 | Sep 2014-May 2019</h4>
-				<p> I completed my Bachelor of Applied Science in Chemical Engineering in 2019. This foundational
-					education equipped me with invaluable analytical, mathematical, and problem-solving skills, which I
+				<p> I completed my Bachelor of Applied Science in Chemical Engineering in 2019.
+					This foundational
+					education equipped me with invaluable analytical, mathematical, and
+					problem-solving skills, which I
 					have carried forward into my career as a Data Scientist. </p>
 
-				<p> During my senior year of study, I undertook several substantial projects, ranging from wet-lab
-					investigations to large-scale process design endeavors. These projects included creating biodiesel
-					from waste oil from a local cafeteria, optimizing reactor performance using statistical analysis,
-					and designing a chemical plant for a novel production process. These experiences exposed me to the
-					intricacies of industry-scale collaborative problem-solving, the design of complex, multi-step
+				<p> During my senior year of study, I undertook several substantial projects,
+					ranging from wet-lab
+					investigations to large-scale process design endeavors. These projects
+					included creating biodiesel
+					from waste oil from a local cafeteria, optimizing reactor performance using
+					statistical analysis,
+					and designing a chemical plant for a novel production process. These
+					experiences exposed me to the
+					intricacies of industry-scale collaborative problem-solving, the design of
+					complex, multi-step
 					experiments, and the analysis of technical processes. </p>
 
-				<p> My background in chemical engineering has been instrumental in my data science career, enabling me
-					to approach challenges with a structured and methodical mindset. I have developed strong
-					organizational and leadership skills, which have proven extremely valuable when working with Data
-					Science teams and tackling complex, ambiguous investigations. My engineering background continues to
-					complement and enhance my effectiveness as a Data Scientist, allowing me to deliver innovative
+				<p> My background in chemical engineering has been instrumental in my data
+					science career, enabling me
+					to approach challenges with a structured and methodical mindset. I have
+					developed strong
+					organizational and leadership skills, which have proven extremely valuable
+					when working with Data
+					Science teams and tackling complex, ambiguous investigations. My engineering
+					background continues to
+					complement and enhance my effectiveness as a Data Scientist, allowing me to
+					deliver innovative
 					solutions to complex problems. </p>
 
 				<span class="image main"><img src="images/GU.png" alt="" /></span>
 				<h2> HS Camp Instructor </h2>
 				<h4> UBC Geering UP | April 2018 - Aug 2019</h4>
-				<p> During my undergraduate studies, I worked as a High School Camps Instructor at UBC Geering UP. In
-					this role, I designed and led week-long Environmental Engineering camps for groups of over 20
-					students, fostering an environment of critical thinking, collaboration, and inquiry. </p>
+				<p> During my undergraduate studies, I worked as a High School Camps Instructor
+					at UBC Geering UP. In
+					this role, I designed and led week-long Environmental Engineering camps for
+					groups of over 20
+					students, fostering an environment of critical thinking, collaboration, and
+					inquiry. </p>
 
-				<p> This position instilled me with a passion for education and mentorship, which was the original
-					inspiration behind my pursuit of teaching. It was in this position that I first became comfortable
-					with presentations, public speaking, and breaking down complex concepts for learners, which are
+				<p> This position instilled me with a passion for education and mentorship,
+					which was the original
+					inspiration behind my pursuit of teaching. It was in this position that I
+					first became comfortable
+					with presentations, public speaking, and breaking down complex concepts for
+					learners, which are
 					skills I
-					carry forward as a Data Scientist to share knowledge and insights derived from my work to empower
+					carry forward as a Data Scientist to share knowledge and insights derived
+					from my work to empower
 					my teams and foster innovation. </p>
 
 				<span class="image main"><img src="images/Krav.png" alt="" /></span>
 				<h2> Self Defense Instructor </h2>
 				<h4> Krav Maga BC | Feb 2015 - April 2019 </h4>
-				<p> At 19, I began teaching as a Self Defense Instructor at Krav Maga BC, having been nominated by the
+				<p> At 19, I began teaching as a Self Defense Instructor at Krav Maga BC, having
+					been nominated by the
 					gym owner and lead
-					instructors for the instructor apprenticeship program based on my leadership in classes and passion
+					instructors for the instructor apprenticeship program based on my leadership
+					in classes and passion
 					for the
 					system as an athlete. </p>
 
-				<p> I took on a mentorship role in the community, empowering individuals with valuable self-defence
+				<p> I took on a mentorship role in the community, empowering individuals with
+					valuable self-defence
 					skills. With over
-					500 hours of teaching experience, I designed and led training programs for Krav Maga classes and
+					500 hours of teaching experience, I designed and led training programs for
+					Krav Maga classes and
 					seminars, catering to groups ranging from 5 to 25 students. </p>
 
-				<p> My responsibilities extended beyond instruction as I actively contributed to the growth and
-					development of our community. I played a pivotal role in grading and evaluating students during
-					level testing, ensuring they achieved proficiency in self-defence techniques. I also had the
-					privilege of mentoring and training new junior instructors, fostering a culture of continuous
+				<p> My responsibilities extended beyond instruction as I actively contributed to
+					the growth and
+					development of our community. I played a pivotal role in grading and
+					evaluating students during
+					level testing, ensuring they achieved proficiency in self-defence
+					techniques. I also had the
+					privilege of mentoring and training new junior instructors, fostering a
+					culture of continuous
 					improvement and expertise within the organization. </p>
 
 
-				<p> My time as a Krav Maga instructor instilled in me the importance of discipline, effective
-					communication, and adaptability. I continue to be an active athlete in the community, now Impact
+				<p> My time as a Krav Maga instructor instilled in me the importance of
+					discipline, effective
+					communication, and adaptability. I continue to be an active athlete in the
+					community, now Impact
 					Krav Maga, though I no longer teach. </p>
 
 
